@@ -1,4 +1,5 @@
 import React from 'react';
+import React, { useReducer, useEffect } from "react";
 import About from './components/About'
 import Contact from './components/Contact'
 import './App.css';
@@ -26,7 +27,50 @@ const initialState = {
   movieDetails : {},
   appMessage: ""
 };
-
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "SEARCH_MOVIES_REQUEST":
+      return {
+        ...state,
+        loading: true,
+        errorMessage: null
+      };
+      case "FAV_MOVIES_SUCCESS":
+        return {
+          ...state,
+          loading: false,
+          movies: action.payload,
+          appMessage: "Sharing a few of our favorite movies"
+        };
+    case "SEARCH_MOVIES_SUCCESS":
+      return {
+        ...state,
+        loading: false,
+        movies: action.payload,
+        appMessage: `Search results`
+      };
+    case "SEARCH_MOVIES_FAILURE":
+      return {
+        ...state,
+        loading: false,
+        errorMessage: action.error
+      };
+    case "MOVIE_DETAILS_SUCCESS":
+      return {
+        ...state,
+        loading: false,
+        movieDetails: action.payload
+      };
+    case "MOVIE_DETAILS_FAILURE":
+      return {
+        ...state,
+        loading: false,
+        errorMessage: action.error
+      };
+    default:
+      return state;
+  }
+};
 function App() {
   return (
     <div className="App">
