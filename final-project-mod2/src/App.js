@@ -19,6 +19,13 @@ const API_KEY = "65525897";
 //defining API url as constant
 const MOVIE_API_URL = `https://www.omdbapi.com/?s=${searchWord}&apikey=${API_KEY}`;
 
+const initialState = {
+  loading: true,
+  movies: [],
+  errorMessage: null,
+  movieDetails : {},
+  appMessage: ""
+};
 
 function App() {
   return (
