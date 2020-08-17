@@ -7,6 +7,12 @@
 }
 .list{
   list-style: none;
+  white-space: nowrap;
+  padding-right: 30px;
+}
+ul li{
+  display: inline;
+  padding-right: 30px;
 }
 .app-header > h2 {
   margin: 0;
