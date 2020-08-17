@@ -1,5 +1,8 @@
 .App {
   text-align: center;
 }
-
+.nav-route{
+  display : flex;
+  justify-content: space-between;
+}
 
