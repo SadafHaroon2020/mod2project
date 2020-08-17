@@ -3,6 +3,13 @@ import About from './components/About'
 import Contact from './components/Contact'
 import './App.css';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Link,
+  Route
+} from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
@@ -15,14 +22,14 @@ function App() {
                 <li><Link to='/contact'>Contact</Link></li>
               </ul>
             </nav>
-
+   
             <Switch>
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
             </Switch>
             </div>
             </Router>
-            
+            </div>
     </div>
   );
 }
