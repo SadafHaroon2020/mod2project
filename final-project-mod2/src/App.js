@@ -27,6 +27,7 @@ function App() {
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
             </Switch>
+            <Header text="MOVIES COLLECTION" />
             </div>
             </Router>
             </div>
