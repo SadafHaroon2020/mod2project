@@ -10,6 +10,16 @@ import {
   Route
 } from "react-router-dom";
 
+
+const movieNames = ['frozen','maleficent','aladin','zootopia','taken','x-men']
+//randomly selecting favorite movies for rendering on home page
+let searchWord = movieNames[Math.floor(Math.random() * movieNames.length)]
+//defining API key as constant
+const API_KEY = "65525897";
+//defining API url as constant
+const MOVIE_API_URL = `https://www.omdbapi.com/?s=${searchWord}&apikey=${API_KEY}`;
+
+
 function App() {
   return (
     <div className="App">
