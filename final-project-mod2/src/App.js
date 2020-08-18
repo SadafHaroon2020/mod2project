@@ -147,21 +147,16 @@ const App = () => {
                 <li><Link to='/contact'>Contact</Link></li>
               </ul>
             </nav>
-
             <Switch>
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
             </Switch>
-            {/* <FetchData /> */}
+            
              <Header text="MOVIES COLLECTION" />
              <Search search={search} />
           </div>
-         
-        </Router>
-        
-        {/* ============================================= */}
-       
-       
+                 </Router>
+
       </div>
       
   <p className="app-intro">{state.appMessage}</p>

@@ -51,9 +51,8 @@ ul li{
 }@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
 .App {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
+
+} 
 
 .nav-bar {
   position: relative;
