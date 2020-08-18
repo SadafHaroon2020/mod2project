@@ -1,7 +1,8 @@
-import React from 'react';
+
 import React, { useReducer, useEffect } from "react";
 import About from './components/About'
 import Contact from './components/Contact'
+import Header from './components/Header'
 import './App.css';
 
 import {
