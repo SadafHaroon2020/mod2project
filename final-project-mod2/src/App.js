@@ -3,7 +3,6 @@ import "./App.css";
 import axios from 'axios'
 import Header from './components/Header'
 import Movie from './components/Movie'
-import Search from './components/Seacrh'
 import About from './components/About'
 import Contact from './components/Contact'
 //===
@@ -153,7 +152,7 @@ const App = () => {
             </Switch>
             {/* <FetchData /> */}
              <Header text="MOVIES COLLECTION" />
-             <Search search={search} />
+             {/* <Search search={search} /> */}
           </div>
          
         </Router>
