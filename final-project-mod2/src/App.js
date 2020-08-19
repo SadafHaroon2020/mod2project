@@ -75,7 +75,6 @@ const reducer = (state, action) => {
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
-
   useEffect(() => {
     axios.get(MOVIE_API_URL)
       .then(response => response.data)
@@ -92,7 +91,6 @@ const App = () => {
     dispatch({
       type: "MOVIE_DETAILS_REQUEST"
     });
-
     axios.get(`https://www.omdbapi.com/?i=${movieId}&apikey=${API_KEY}&plot=full`)
       .then(response => response.data)
       .then(jsonResponse => {
@@ -109,12 +107,10 @@ const App = () => {
         }
       });
   };
-
   const search = searchValue => {
     dispatch({
       type: "SEARCH_MOVIES_REQUEST"
     });
-
     axios.get(`https://www.omdbapi.com/?s=${searchValue}&apikey=${API_KEY}&plot=full`)
       .then(response => response.data)
       .then(jsonResponse => {
