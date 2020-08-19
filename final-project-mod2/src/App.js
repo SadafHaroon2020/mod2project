@@ -6,14 +6,12 @@ import Movie from './components/Movie'
 import About from './components/About'
 import Search from './components/Search'
 import Contact from './components/Contact'
-//===
 import {
   BrowserRouter as Router,
   Switch,
   Link,
   Route
 } from "react-router-dom";
-//=====
 
 const movieNames = ['frozen','maleficent','aladin','zootopia','taken','x-men']
 let searchWord = movieNames[Math.floor(Math.random() * movieNames.length)]
