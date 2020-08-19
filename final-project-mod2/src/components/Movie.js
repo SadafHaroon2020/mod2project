@@ -18,7 +18,7 @@ const Movie = (props) => {
       <div>
         <img
           width="200"
-          alt={`The movie titled: ${movie.Title}`}
+          alt={`Movie title: ${movie.Title}`}
           src={poster}
         />
       </div>
