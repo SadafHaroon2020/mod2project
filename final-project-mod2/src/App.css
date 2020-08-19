@@ -145,4 +145,5 @@ ul li{
 .movie > p {
   font-size: 30px;
   color: #139c7f;
+  font-weight: bolder;
 }
