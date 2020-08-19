@@ -137,10 +137,13 @@ const App = () => {
   return (
     <div className="App">
       <div className="nav-bar">
+     
       <Header text="MOVIES COLLECTION" />
-             <Search search={search} />
+      <Search search={search} />
+      </div>
       <Router>
           <div className='nav-route'>
+            
             <nav>
               <ul className='list'>
                 <li><Link to='/about'>About</Link></li>
@@ -156,7 +159,7 @@ const App = () => {
           </div>
                  </Router>
 
-      </div>
+      
       
   <p className="app-intro">{state.appMessage}</p>
       <div className="movies">
