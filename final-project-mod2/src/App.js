@@ -23,7 +23,7 @@ const initialState = {
   movies: [],
   errorMessage: null,
   movieDetails : {},
-  // working on details as modal/dialogue box
+
   appMessage: ""
 };
 
