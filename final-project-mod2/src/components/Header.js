@@ -5,7 +5,6 @@ const Header = (props) => {
     <div>
       <header className="app-header">
         <h2>{props.text}</h2>
-      
       </header>
     </div>
   );
