@@ -61,6 +61,7 @@ ul li{
   display: inline;
   padding-right: 30px;
   font-size: 18px;
+  font-weight: bold;
 }
 .app-header > h2 {
   margin: 0;
