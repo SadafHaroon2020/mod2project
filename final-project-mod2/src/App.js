@@ -137,6 +137,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="nav-bar">
+      <Header text="MOVIES COLLECTION" />
+             <Search search={search} />
       <Router>
           <div className='nav-route'>
             <nav>
@@ -150,8 +152,7 @@ const App = () => {
               <Route path='/contact' component={Contact} />
             </Switch>
             
-             <Header text="MOVIES COLLECTION" />
-             <Search search={search} />
+           
           </div>
                  </Router>
 
