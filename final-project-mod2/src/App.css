@@ -14,13 +14,11 @@
 ul li{
   display: inline;
 }
-
 .search {
   position: absolute;
   top: 12px;
   right: 50px;
 }
-
 .search > input[type="text"] {
   border: none;
   padding: 8px 14px;
@@ -70,17 +68,14 @@ ul li{
   transition: all 0.4s;
   align-content: center;
 }
-
 .app-header > h2:hover {
   color: #FFF;
 }
-
 .search {
   position: absolute;
   top: 12px;
   right: 90px;
 }
-
 .search > input[type="text"] {
   border: none;
   padding: 8px 14px;
@@ -92,7 +87,6 @@ ul li{
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-
 .search > input[type="text"]:focus {
   outline: none;
 }
