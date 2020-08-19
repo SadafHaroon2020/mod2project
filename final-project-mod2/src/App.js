@@ -52,7 +52,8 @@ const reducer = (state, action) => {
       return {
         ...state,
         loading: false,
-        errorMessage: action.error
+        // errorMessage: action.error
+        errorMessage:'Movie Not Found, Please search again'
       };
     case "MOVIE_DETAILS_SUCCESS":
       return {
