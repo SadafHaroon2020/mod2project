@@ -106,11 +106,9 @@ ul li{
   background-color: #139c7f;
   color: #FFF;
 }
-
 .search > input[type="submit"]:focus {
   outline: none;
 }
-
 .app-intro {
   font-size: 32px;
   color:  #2E67A0;
@@ -122,7 +120,6 @@ ul li{
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .movies > .loader {
   border: 12px solid #f3f3f3;
   border-top: 12px solid #2E67A0;
@@ -138,7 +135,6 @@ ul li{
   cursor: pointer;
   transition: all 0.3s;
 }
-
 .movies > .movie:hover {
   box-shadow:  0 0 24px 0 rgba(0,0,0,0.5);
 }
