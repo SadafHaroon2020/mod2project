@@ -48,7 +48,8 @@ ul li{
 
 .search > input[type="submit"]:focus {
   outline: none;
-}@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400);
 .App {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 
@@ -150,8 +151,7 @@ ul li{
   animation: spin 2s linear infinite;
 }
 .movies > .movie {
-  width: 250px;
-  height: 250px;
+  padding: 15px;
   position: relative;
   margin: 1em;
   cursor: pointer;
@@ -162,7 +162,7 @@ ul li{
   box-shadow:  0 0 24px 0 rgba(0,0,0,0.5);
 }
 .movies > .movie > div > img {
-  height: 250px;
-  width: 250px;
-  object-fit: cover;
+  height: 300px;
+  width: 220px;
+  /* object-fit: cover; */
 }
