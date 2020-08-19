@@ -1,5 +1,5 @@
 Making a Parent Component.
-Handling and rendering API using axios/fetch
+Handling and rendering API using axios
 checking API failure or Success
 Making separate components for individual functionality
 Maintaining and updating states using hooks/redux
