@@ -1,4 +1,5 @@
 Making a Parent Component.
+Using Router/Switch for navigation.
 Handling and rendering API using axios
 checking API failure or Success
 Making separate components for individual functionality
