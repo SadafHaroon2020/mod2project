@@ -39,7 +39,7 @@ const reducer = (state, action) => {
           ...state,
           loading: false,
           movies: action.payload,
-          appMessage: "Sharing a few of our favorite movies"
+          appMessage: "Sharing few of our favorite movies."
         };
     case "SEARCH_MOVIES_SUCCESS":
       return {
