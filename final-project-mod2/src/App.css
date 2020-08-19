@@ -12,16 +12,7 @@
 }
 ul li{
   display: inline;
-  padding-right: 30px;
-}
-.app-header > h2 {
-  margin: 0;
-  color: #c3d8fd;
-  cursor: pointer;
-  transition: all 0.4s;
-}
-.app-header > h2:hover {
-  color: #FFF;
+  padding-right: 10px;
 }
 
 .search {
@@ -80,6 +71,7 @@ ul li{
   color: #06214e;
   cursor: pointer;
   transition: all 0.4s;
+  align-content: center;
 }
 
 .app-header > h2:hover {
