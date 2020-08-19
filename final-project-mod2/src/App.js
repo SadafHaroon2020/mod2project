@@ -137,7 +137,6 @@ const App = () => {
   return (
     <div className="App">
       <div className="nav-bar">
-     
       <Header text="MOVIES COLLECTION" />
       <Search search={search} />
       </div>
