@@ -142,3 +142,7 @@ ul li{
   height: 300px;
   width: 220px;
 }
+.movie > p {
+  font-size: 30px;
+  color: #139c7f;
+}
