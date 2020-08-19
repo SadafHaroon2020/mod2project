@@ -1,7 +1,7 @@
 Making a Parent Component.
 Using Router/Switch for navigation.
-Handling and rendering API using axios
-checking API failure or Success
+Handling and fetching API using axios.
+Checking API failure or Success as action
 Making separate components for individual functionality
 Maintaining and updating states using hooks/redux
 Designing front end /ui in css
