@@ -46,7 +46,7 @@ const reducer = (state, action) => {
         ...state,
         loading: false,
         movies: action.payload,
-        appMessage: `Search results`
+        appMessage: `Search Results`
       };
     case "SEARCH_MOVIES_FAILURE":
       return {
