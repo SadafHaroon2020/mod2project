@@ -9,7 +9,6 @@
 }
 .list{
   list-style: none;
-  white-space: nowrap;
 }
 ul li{
   display: inline;
