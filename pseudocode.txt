@@ -4,4 +4,4 @@ Handling and fetching API using axios.
 Checking API failure or Success as action
 Making separate components for individual functionality
 Maintaining and updating states using hooks
-Designing front end /ui in css
+Designing front end in css
