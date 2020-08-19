@@ -23,7 +23,6 @@ const initialState = {
   movies: [],
   errorMessage: null,
   movieDetails : {},
-
   appMessage: ""
 };
 
