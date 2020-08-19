@@ -131,7 +131,7 @@ ul li{
 .movies > .movie {
   padding: 15px;
   position: relative;
-  margin: 1em;
+  margin: 0.2em;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -145,5 +145,7 @@ ul li{
 .movie > p {
   font-size: 30px;
   color: #139c7f;
-  font-weight: bolder;
+  font-weight: bold;
+  margin : 0px;
+
 }
