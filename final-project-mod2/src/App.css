@@ -53,7 +53,7 @@ ul li{
 }
 .list{
   list-style: none;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   padding-right: 30px;
 }
 ul li{
