@@ -129,13 +129,13 @@ const App = () => {
   const { movies, errorMessage, loading } = state;
 
   return (
-    <div className="App">
-      <div className="nav-bar">
-      <Header text="MOVIES COLLECTION" />
-      <Search search={search} />
+    <div className = "App">
+      <div className = "nav-bar">
+      <Header text = "MOVIES COLLECTION" />
+      <Search search = {search} />
       </div>
       <Router>
-          <div className='nav-route'>
+          <div className = 'nav-route'>
             
             <nav>
               <ul className='list'>
