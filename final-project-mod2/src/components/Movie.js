@@ -1,7 +1,6 @@
 import React from 'react'
 
 const DEFAULT_PLACEHOLDER_IMAGE = "https://lh3.googleusercontent.com/proxy/jhdKyQ2YNNqhqa9Cfcr2on4_xeTJyPbYp_TavsDrMB93BtRvGnSDkQE5ngiuD6MHpzMHHBro51bhw4E7cpLL6yLaTQ1nOD-g";
-
 const showMovieDetails=(movieTitle, movieYear)=> {
   let movieDetails = `Movie '${movieTitle}' was release in year ${movieYear}.`;
   alert("MOVIE DETAILS: " + "\n"

@@ -65,7 +65,6 @@ ul li{
 .app-header > h2 {
   margin: 0;
   color: #06214e;
-  cursor: pointer;
   transition: all 0.4s;
   align-content: center;
 }
